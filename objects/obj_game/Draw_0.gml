@@ -10,6 +10,11 @@ draw_rectangle_color(0, 0, SCREEN_WIDTH, 40, c_black, c_black, c_black, c_black,
 
 draw_text(10, 10, "FPS = " + string(fps));
 
-draw_text(100, 10, "Bunnies = " + string(global.bunnies_count));
+draw_text(100, 10, "Bunnies = " + string(global.bunnies_count) + " / 200000");
 
-draw_text(500, 10, "Click anywhere to add bunnies.                   F5 - Toggle debug view");
+draw_text(400, 10, "GameMaker Bunnymark - Click anywhere to add bunnies.");
+
+if global.is_desktop
+{
+    draw_text(1000, 10, "F5 - Toggle debug view");    
+}

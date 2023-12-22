@@ -6,6 +6,7 @@
 
 global.debug = false;
 global.shots = 0;
+global.is_desktop = os_browser == browser_not_a_browser
 
 global.bunny = function(_x = 0.0, _y = 0.0, _speed_x = 0, _speed_y = 0, _color = c_white) constructor
 {
