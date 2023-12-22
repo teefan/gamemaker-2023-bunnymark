@@ -2,6 +2,8 @@
 
 A simple texture/sprite drawing benchmark for GameMaker version 2023.11, based on the [Bunnymark example from Raylib](https://github.com/raysan5/raylib/blob/master/examples/textures/textures_bunnymark.c).
 
+Web version on itch.io: https://teefan.itch.io/gamemaker-bunnymark
+
 Screenshot:
 ![ScreensBunnymark_1](https://github.com/teefan/gamemaker-2023-bunnymark/assets/25924/fc054fc0-0e6e-4ced-aa3a-592c03d1398e)
 
